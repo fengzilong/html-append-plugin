@@ -1,7 +1,7 @@
 {
   "name": "html-append-plugin",
-  "version": "0.0.1",
-  "description": "My superb module",
+  "version": "0.0.3",
+  "description": "webpack plugin, append content to html files",
   "license": "MIT",
   "repository": "fengzilong/html-append-plugin",
   "author": {
