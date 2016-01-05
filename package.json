@@ -1,0 +1,38 @@
+{
+  "name": "html-append-plugin",
+  "version": "0.0.1",
+  "description": "My superb module",
+  "license": "MIT",
+  "repository": "fengzilong/html-append-plugin",
+  "author": {
+    "name": "fengzilong",
+    "email": "feng_zilong@163.com",
+    "url": "https://github.com/fengzilong/html-append-plugin"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ]
+  }
+}
