@@ -8,7 +8,7 @@ $ npm install --save html-append-plugin
 
 ## Usage
 
-The plugin will append content to html files within compilation
+The plugin will append content to html files duration compilation
 
 ```javascript
 var HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -25,14 +25,14 @@ var webpackConfig = {
       append: 'added content'
       // or
       // append: function(){
-      //   return 'added content' + foo;
+      //   return 'added content';
       // }
     })
   ]
 }
 ```
 
-This will generate a file `dist/index.html` containing the following:
+This will generate a file `dist/index.html` containing the following content:
 ```html
 <!DOCTYPE html>
 <html>
@@ -50,4 +50,4 @@ This will generate a file `dist/index.html` containing the following:
 
 ## License
 
-MIT © [](https://github.com/fengzilong/html-append-plugin)
+MIT © [fengzilong](https://github.com/fengzilong)
