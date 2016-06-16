@@ -3,7 +3,7 @@
 ## Install
 
 ```
-$ npm install --save html-append-plugin
+$ npm install html-append-plugin -D
 ```
 
 ## Usage
